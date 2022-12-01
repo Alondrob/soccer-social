@@ -1,12 +1,15 @@
-import React from 'react'
 import { GiSoccerBall } from 'react-icons/gi';
 
-function Header() {
+const  Header = () => {
   return (
     <div className="flex justify-center  bg-black py-4">
-      <div className="absolute left-2 top-6">
-        <GiSoccerBall color="white" size={45} />
+      {/* ****** left side ********* */}
+      <div className=" top-6">
+        <button>
+          <GiSoccerBall color="white" size={45} />
+        </button>
       </div>
+      {/* ****** Middle ********* */}
       <div className="justify-center text-white">
         <h1 className="flex justify-center text-3xl bold  font-extrabold ">
           {" "}

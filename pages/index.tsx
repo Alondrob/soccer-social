@@ -13,8 +13,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header/>
-       <Sidebar/>
+        {/* <Header/> */}
+       {/* <Sidebar/> */}
         {/* feed */}
         </main>
       
