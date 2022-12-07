@@ -10,7 +10,7 @@ const Sidebar = () => {
   //   }
   // }
   return (
-    <div className=" mt-8  text-center text-white font-bold">
+    <div className=" h-screen mt-8  text-center text-white font-bold">
       <Link href="/friends">
         <div className="mr-12">
           <SideBarIcon className="mt-6" name={"Friends"} />
@@ -18,7 +18,7 @@ const Sidebar = () => {
       </Link>
 
       <Link href="/createTeam">
-        <div className="mr-12">
+        <div className="">
           {" "}
           <SideBarIcon name={"Create Team"} />
         </div>

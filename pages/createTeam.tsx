@@ -1,9 +1,10 @@
 import { formation } from "../utils/formation";
 import Field from "../components/shared-components/Field";
+
 const createTeam = () => {
   return (
-    <div className="flex h-96 ">
-      <div className="ml-4 w-1/5">
+    <div className=" ">
+      <div className="flex justify-evenly">
         <div>
           <h4 className="mt-4 text-center">Country</h4>
           <select className="border-2 border-black rounded-xl  w-56 h-8 "></select>
@@ -24,9 +25,9 @@ const createTeam = () => {
             ))}
           </select>
         </div>
-        Side 1
       </div>
-      <div className="mt-10 mr-4 ml-10 w-4/5 ">
+
+      <div className=" ">
         <Field />
       </div>
     </div>
